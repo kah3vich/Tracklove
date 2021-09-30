@@ -36,6 +36,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                cursor: pointer;
                 &-circle {
                     width: 273px;
                     height: 273px;
@@ -92,6 +93,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                cursor: pointer;
                 &-circle {
                     width: 273px;
                     height: 273px;
@@ -148,6 +150,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                cursor: pointer;
                 &-circle {
                     width: 273px;
                     height: 273px;
@@ -425,6 +428,7 @@
                             text-align: center;
                             color: #FFFFFF;
                             opacity: 0.5;
+                            text-align: left;
                         }
                     }
                 }
@@ -697,6 +701,7 @@
                         display: flex;
                         align-items: center;
                         justify-content: flex-start;
+                        cursor: pointer;
                         &:nth-child(1) {
                             margin: 0;
                         }
@@ -1108,7 +1113,7 @@
                                 border-radius: 23.5px;
                                 background: transparent;
                                 & a {
-                                    font-family: Roboto;
+                                    font-family: TT Norms;
                                     font-style: normal;
                                     font-weight: 500;
                                     font-size: 11px;
@@ -1205,7 +1210,7 @@
                                 border-radius: 23.5px;
                                 background: transparent;
                                 & a {
-                                    font-family: Roboto;
+                                    font-family: TT Norms;
                                     font-style: normal;
                                     font-weight: 500;
                                     font-size: 11px;

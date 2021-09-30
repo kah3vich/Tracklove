@@ -448,7 +448,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  width: 92%;
 }
 
 .i-about__we-text {
@@ -1303,6 +1303,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 .profile__banner-block-1-circle {
@@ -1394,6 +1395,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 .profile__banner-block-2-circle {
@@ -1486,6 +1488,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 .profile__banner-block-3-circle {
@@ -1872,6 +1875,7 @@
   text-align: center;
   color: #FFFFFF;
   opacity: 0.5;
+  text-align: left;
 }
 
 .profile__block-instagram-search-input input::-moz-placeholder {
@@ -1883,6 +1887,7 @@
   text-align: center;
   color: #FFFFFF;
   opacity: 0.5;
+  text-align: left;
 }
 
 .profile__block-instagram-search-input input:-ms-input-placeholder {
@@ -1894,6 +1899,7 @@
   text-align: center;
   color: #FFFFFF;
   opacity: 0.5;
+  text-align: left;
 }
 
 .profile__block-instagram-search-input input::-ms-input-placeholder {
@@ -1905,6 +1911,7 @@
   text-align: center;
   color: #FFFFFF;
   opacity: 0.5;
+  text-align: left;
 }
 
 .profile__block-instagram-search-input input::placeholder {
@@ -1916,6 +1923,7 @@
   text-align: center;
   color: #FFFFFF;
   opacity: 0.5;
+  text-align: left;
 }
 
 .profile__block-instagram-search-btn {
@@ -2283,6 +2291,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  cursor: pointer;
 }
 
 .profile__block-instagram-list-block-item:nth-child(1) {
@@ -2857,7 +2866,7 @@
 }
 
 .profile__blog-slider .swiper-slide-2-text-block-btn a {
-  font-family: Roboto;
+  font-family: TT Norms;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
@@ -2996,7 +3005,7 @@
 }
 
 .profile__blog-slider .swiper-slide-3-text-block-btn a {
-  font-family: Roboto;
+  font-family: TT Norms;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
@@ -3639,7 +3648,7 @@
 }
 
 .advice__blog-slider .swiper-slide-2-text-block-btn a {
-  font-family: Roboto;
+  font-family: TT Norms;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
@@ -3778,7 +3787,7 @@
 }
 
 .advice__blog-slider .swiper-slide-3-text-block-btn a {
-  font-family: Roboto;
+  font-family: TT Norms;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
@@ -3863,6 +3872,13 @@ input {
 ol,
 ul {
   padding-left: 0;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .containers {
