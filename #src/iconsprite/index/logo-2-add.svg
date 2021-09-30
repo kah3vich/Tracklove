@@ -1,0 +1,26 @@
+<svg width="206" height="188" viewBox="0 0 206 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="56" y="38" width="150" height="150">
+<path d="M56.665 38.7708C139.021 38.7708 205.783 105.533 205.783 187.889H56.665V38.7708Z" fill="#F1BF5A"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M56.665 38.7708C139.021 38.7708 205.783 105.533 205.783 187.889H56.665V38.7708Z" fill="#5ACFC7"/>
+</g>
+<g opacity="0.5">
+<circle cx="4" cy="4" r="4" fill="#313131"/>
+<circle cx="28" cy="4" r="4" fill="#313131"/>
+<circle cx="52" cy="4" r="4" fill="#313131"/>
+<circle cx="76" cy="4" r="4" fill="#313131"/>
+<circle cx="4" cy="28" r="4" fill="#313131"/>
+<circle cx="28" cy="28" r="4" fill="#313131"/>
+<circle cx="52" cy="28" r="4" fill="#313131"/>
+<circle cx="76" cy="28" r="4" fill="#313131"/>
+<circle cx="4" cy="52" r="4" fill="#313131"/>
+<circle cx="28" cy="52" r="4" fill="#313131"/>
+<circle cx="52" cy="52" r="4" fill="#313131"/>
+<circle cx="76" cy="52" r="4" fill="#313131"/>
+<circle cx="4" cy="76" r="4" fill="#313131"/>
+<circle cx="28" cy="76" r="4" fill="#313131"/>
+<circle cx="52" cy="76" r="4" fill="#313131"/>
+<circle cx="76" cy="76" r="4" fill="#313131"/>
+</g>
+</svg>

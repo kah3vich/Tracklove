@@ -1,0 +1,104 @@
+.footer {
+    width: 100%;
+    height: 322px;
+    background: #6454DD;
+    &__block {
+        padding: 60px 0 0 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        &-up {
+            position: absolute;
+            top: 60px;
+            right: 21px;
+            width: 50px;
+            height: 50px;
+            background: #FFD2DD;
+            border-radius: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            &-logo {
+                width: 120px;
+                height: 36px;
+            }
+            &-rights {
+                margin: 16px 0 0 0;
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: -0.204545px;
+                color: #FFFFFF;
+            }
+            &-contact {
+                display: flex;
+                margin: 80px 0 0 0;
+                align-items: center;
+                justify-content: space-between;
+                width: 125px;
+            }
+        }
+        &-service {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            height: 140px;
+            margin: 0 0 0 172px;
+            &-item {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 22px;
+                letter-spacing: -0.231818px;
+                color: #FFD2DD;
+                & a {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 20px;
+                    letter-spacing: -0.204545px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &-catalog {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            height: 140px;
+            margin: 0 0 0 185px;
+            &-item {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 22px;
+                letter-spacing: -0.231818px;
+                color: #FFD2DD;
+                & a {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 20px;
+                    letter-spacing: -0.204545px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

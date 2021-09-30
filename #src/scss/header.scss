@@ -1,0 +1,31 @@
+.header {
+    padding: 45px 0 45px 0;
+    width: 100%;
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-logo {
+            width: 120px;
+            height: 36px;
+            cursor: pointer;
+        }
+        &-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 396px;
+            &-item {
+                cursor: pointer;
+                & a {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 30px;
+                    color: #E184BD;
+                }
+            }
+        }
+    }
+}

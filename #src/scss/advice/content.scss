@@ -1,0 +1,579 @@
+.advice {
+    background: url(../svg/profile/bg.svg);
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        &-title {
+            margin: 22px 0 0 0;
+            width: 675px;
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 53px;
+            text-align: center;
+            color: #464154;
+        }
+        &-banner {
+            width: 1110px;
+            background: #FFF7F7;
+            border-radius: 8px;
+            position: relative;
+            &-icons-1 {
+                position: absolute;
+                z-index: 10;
+                top: 190px;
+                left: -70px;
+            }
+            &-icons-2 {
+                position: absolute;
+                z-index: 10;
+                top: 300px;
+                right: -75px;
+            }
+            &-icons-3 {
+                position: absolute;
+                z-index: 10;
+                top: 440px;
+                left: 135px;
+            }
+            &-icons-4 {
+                position: absolute;
+                z-index: 10;
+                top: -32px;
+                right: -65px;
+            }
+            &-img {
+                width: 1110px;
+                height: 384px;
+                border-radius: 8px;
+                & img {
+                    width: 1110px;
+                    height: 384px;
+                    border-radius: 8px;
+                }
+            }
+            &-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                &-add {
+                    margin: 70px 0 0 0;
+                    width: 570px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 28px;
+                    color: #777777;
+                }
+                &-1 {
+                    margin: 54px 0 0 0;
+                    width: 570px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-align: left;
+                    font-size: 24px;
+                    line-height: 32px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #283646;
+                    &-add {
+                        margin: 27px 0 0 0;
+                        width: 570px;
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 28px;
+                        color: #777777;
+                    }
+                }
+                &-2 {
+                    margin: 54px 0 0 0;
+                    width: 570px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-align: left;
+                    font-size: 24px;
+                    line-height: 32px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #283646;
+                    &-add {
+                        margin: 27px 0 0 0;
+                        width: 570px;
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 28px;
+                        color: #777777;
+                    }
+                }
+                &-3 {
+                    margin: 54px 0 0 0;
+                    width: 570px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-align: left;
+                    font-size: 24px;
+                    line-height: 32px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #283646;
+                    &-add {
+                        margin: 27px 0 0 0;
+                        width: 570px;
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 28px;
+                        color: #777777;
+                    }
+                }
+                &-4 {
+                    margin: 54px 0 0 0;
+                    width: 570px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-align: left;
+                    font-size: 24px;
+                    line-height: 32px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #283646;
+                    &-add {
+                        margin: 27px 0 0 0;
+                        width: 570px;
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 28px;
+                        color: #777777;
+                    }
+                }
+                &-5 {
+                    margin: 54px 0 0 0;
+                    width: 570px;
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-align: left;
+                    font-size: 24px;
+                    line-height: 32px;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+                    color: #283646;
+                    &-add {
+                        margin: 27px 0 0 0;
+                        width: 570px;
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 28px;
+                        color: #777777;
+                    }
+                }
+            }
+            &-btns {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 0 0 0 270px;
+                margin: 54px 0 64px 0;
+            }
+            &-btn {
+                width: 110px;
+                height: 32px;
+                border: 1px dashed #3A86FF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 23.5px;
+                background: transparent;
+                margin: 0 24px 0 0;
+                & a {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 150%;
+                    color: #3A86FF;
+                }
+            }
+        }
+    }
+    &__blog {
+        margin: 73px 0 160px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        &-title {
+            font-family: TT Norms;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 72px;
+            text-align: center;
+            height: 72px;
+            &-blue {
+                color: #6454DD;
+            }
+            &-pink {
+                color: #E184BD;
+            }
+        }
+        &-slider {
+            width: 1110px;
+            margin: 47px 0 0 0;
+            position: relative;
+            & .swiper-slide {
+                width: 100%;
+                height: 640px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 16px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "swiper-slide-1 swiper-slide-2"
+                    "swiper-slide-1 swiper-slide-3";
+                &-1 {
+                    grid-area: swiper-slide-1;
+                    width: 505px;
+                    height: 640px;
+                    background: #FFF7F7;
+                    border-radius: 8px; 
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    &-img {
+                        width: 505px;
+                        height: 384px;
+                        background: #FF7E92;
+                        border-radius: 8px;
+                    }
+                    &-title {
+                        margin: 24px 0 0 23px;
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 30px;
+                        font-feature-settings: 'pnum' on, 'lnum' on;
+                        color: #283646;
+                    }
+                    &-text {
+                        margin: 12px 0 0 23px;
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #77808B;
+                    }
+                    &-date {
+                        margin: 12px 0 0 23px;
+                        font-family: TT Norms;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 11px;
+                        line-height: 150%;
+                        color: #9C9C9C;
+                    }
+                    &-block {
+                        margin: 27px 0 0;
+                        padding: 0 53px 0 23px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+                        &-link {
+                            position: relative;
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                bottom: -3px;
+                                left: 0;
+                                width: 90px;
+                                height: 4px;
+                                background: #3A86FF;
+                            }
+                            & a {
+                                font-family: TT Norms;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 150%;
+                                color: #3A86FF;
+                            }
+                        }
+                        &-btn {
+                            width: 110px;
+                            height: 32px;
+                            border: 1px dashed #3A86FF;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 23.5px;
+                            cursor: pointer;
+                            background: transparent;
+                            & a {
+                                font-family: TT Norms;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 11px;
+                                line-height: 150%;
+                                color: #3A86FF;
+                            }
+                        }
+                    }
+                }
+                &-2 {
+                    grid-area: swiper-slide-2; 
+                    width: 591px;
+                    height: 312px;
+                    background: #FFF7F7;
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    &-img {
+                        width: 227px;
+                        height: 312px;
+                        background: #6454DD;
+                        border-radius: 8px;
+                    }
+                    &-text {
+                        width: 340px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        margin: 24px 0 0 0;
+                        &-title {
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 24px;
+                            line-height: 32px;
+                            font-feature-settings: 'pnum' on, 'lnum' on;
+                            color: #283646;
+                        }
+                        &-item {
+                            margin: 10px 0 0 0;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #77808B;
+                        }
+                        &-date {
+                            margin: 19px 0 0 0;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 11px;
+                            line-height: 150%;
+                            color: #9C9C9C;
+                        }
+                        &-block {
+                            margin: 72px 0 0 0;
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 0 29px 0 0;
+                            &-link {
+                                position: relative;
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: -3px;
+                                    left: 0;
+                                    width: 90px;
+                                    height: 4px;
+                                    background: #3A86FF;
+                                }
+                                & a {
+                                    font-family: TT Norms;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 150%;
+                                    color: #3A86FF;
+                                }
+                            }
+                            &-btn {
+                                width: 110px;
+                                height: 32px;
+                                border: 1px dashed #3A86FF;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 23.5px;
+                                background: transparent;
+                                & a {
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 11px;
+                                    line-height: 150%;
+                                    color: #3A86FF;
+                                }
+                            }
+                        }
+                    }
+                }
+                &-3 {
+                    grid-area: swiper-slide-3; 
+                    width: 591px;
+                    height: 312px;
+                    background: #FFF7F7;
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    &-img {
+                        width: 227px;
+                        height: 312px;
+                        background: #6454DD;
+                        border-radius: 8px;
+                    }
+                    &-text {
+                        width: 340px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        margin: 24px 0 0 0;
+                        &-title {
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 24px;
+                            line-height: 32px;
+                            font-feature-settings: 'pnum' on, 'lnum' on;
+                            color: #283646;
+                        }
+                        &-item {
+                            margin: 10px 0 0 0;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #77808B;
+                        }
+                        &-date {
+                            margin: 19px 0 0 0;
+                            font-family: TT Norms;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 11px;
+                            line-height: 150%;
+                            color: #9C9C9C;
+                        }
+                        &-block {
+                            margin: 72px 0 0 0;
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 0 29px 0 0;
+                            &-link {
+                                position: relative;
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: -3px;
+                                    left: 0;
+                                    width: 90px;
+                                    height: 4px;
+                                    background: #3A86FF;
+                                }
+                                & a {
+                                    font-family: TT Norms;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 150%;
+                                    color: #3A86FF;
+                                }
+                            }
+                            &-btn {
+                                width: 110px;
+                                height: 32px;
+                                border: 1px dashed #3A86FF;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 23.5px;
+                                background: transparent;
+                                & a {
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 11px;
+                                    line-height: 150%;
+                                    color: #3A86FF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            & .swiper-controls {
+                position: absolute;
+                top: -89px;
+                right: -10px;
+                width: 160px;
+                & .swiper-button-next {
+                    content: "";
+                    width: 56px;
+                    height: 56px;
+                    background: #FF7E92;
+                    border-radius: 10px;
+                    &::after {
+                        content: "";
+                    }
+                    &-icon {
+                        content: url(../svg/profile/arrow-next.svg);
+                    }
+                }
+                & .swiper-button-prev {
+                    content: "";
+                    width: 56px;
+                    height: 56px;
+                    background: #F8F9FA;
+                    border-radius: 10px;
+                    &::after {
+                        content: "";
+                    }
+                    &-icon {
+                        content: url(../svg/profile/arrow-prev.svg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.swiper-button-next.swiper-button-disabled, 
+.swiper-button-prev.swiper-button-disabled {
+    opacity: 1;
+    cursor: auto;
+    pointer-events: none;
+}

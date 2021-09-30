@@ -1,0 +1,349 @@
+@@include('components/_head.html')
+
+
+<div class="profile">
+    @@include('components/_header.html')
+
+
+    <div class="containers">
+        <div class="profile__banner">
+            <div class="profile__banner-icons-1">
+                <img src="./img/profile/icons-1.png" alt="">
+            </div>
+            <div class="profile__banner-icons-2">
+                <img src="./img/profile/icons-2.png" alt="">
+            </div>
+            <div class="profile__banner-icons-3">
+                <img src="./img/profile/icons-3.png" alt="">
+            </div>
+            <div class="profile__banner-block-1">
+                <div class="profile__banner-block-1-circle">
+                    <div class="profile__banner-block-1-img">
+                        <img src="./img/profile/banner-img.png" alt="">
+                    </div>
+                    <div class="profile__banner-block-1-text">
+                        <div class="profile__banner-block-1-text-title">INSTAGRAM</div>
+                        <div class="profile__banner-block-1-text-link">анализ <br>активности</div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile__banner-block-2">
+                <div class="profile__banner-block-2-circle">
+                    <div class="profile__banner-block-2-img">
+                        <img src="./img/profile/banner-img.png" alt="">
+                    </div>
+                    <div class="profile__banner-block-2-text">
+                        <div class="profile__banner-block-2-text-title">VK</div>
+                        <div class="profile__banner-block-2-text-link">анализ <br>активности</div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile__banner-block-3">
+                <div class="profile__banner-block-3-circle">
+                    <div class="profile__banner-block-3-img">
+                        <img src="./img/profile/banner-img.png" alt="">
+                    </div>
+                    <div class="profile__banner-block-3-text">
+                        <div class="profile__banner-block-3-text-title">TINDER</div>
+                        <div class="profile__banner-block-3-text-link">анализ <br>активности</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile__block">
+            <div class="profile__block-banners display-n">
+                <div class="profile__block-banners-title">Важно</div>
+                <div class="profile__block-banners-text-1">
+                    Во время загрузки результатов не переходите на другие вкладки и не блокируйте экран телефона
+                </div>
+                <div class="profile__block-banners-text-2">
+                    Если во время загрузки результатов что-то пошло не так – ознакомьтесь с инструкцией.
+                </div>
+            </div>
+            <div class="profile__block-instagram display-n">
+                <button class="profile__block-instagram-close">@@include('iconsprite/profile/close.svg')</button>
+                <div class="profile__block-instagram-search display-n">
+                    <div class="profile__block-instagram-search-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-instagram-search-text">Введите ник пользователя, сервис проведёт анализ и покажет с кем он взаимодействует 
+                        в социальной сети</div>
+                    <div class="profile__block-instagram-search-input">
+                        <input type="text" placeholder="@ник пользователя">
+                    </div>
+                    <button class="profile__block-instagram-search-btn">Запустить проверку</button>
+                </div>
+                <div class="profile__block-instagram-list display-n">
+                    <div class="profile__block-instagram-list-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-instagram-list-img">
+                        <img src="./img/profile/people.png" alt="">
+                    </div>
+                    <div class="profile__block-instagram-list-name">@dominic.ement</div>
+                    <ul class="profile__block-instagram-list-info">
+                        <li class="profile__block-instagram-list-info-item">
+                            <div class="profile__block-instagram-list-info-title">36</div>
+                            <div class="profile__block-instagram-list-info-text">Подписок</div>
+                        </li>
+                        <li class="profile__block-instagram-list-info-item">
+                            <div class="profile__block-instagram-list-info-title">6.2M</div>
+                            <div class="profile__block-instagram-list-info-text">Подписчиков</div>
+                        </li>
+                        <li class="profile__block-instagram-list-info-item">
+                            <div class="profile__block-instagram-list-info-title">456</div>
+                            <div class="profile__block-instagram-list-info-text">Публикаций</div>
+                        </li>
+                    </ul>
+                    <div class="profile__block-instagram-list-filter">
+                        <div class="profile__block-instagram-list-filter-month">
+                            <p>Месяц</p>
+                            <select class="form-select profile__block-instagram-list-filter-month-select display-n" size="3" aria-label="size 3 select example">
+                                <option value="Январь" id="modalMonthInstagram-1">Январь</option>
+                                <option value="Февраль" id="modalMonthInstagram-2">Февраль</option>
+                                <option value="Март" id="modalMonthInstagram-3">Март</option>
+                                <option value="Апрель" id="modalMonthInstagram-4">Апрель</option>
+                                <option value="Май" id="modalMonthInstagram-5">Май</option>
+                                <option value="Июнь" id="modalMonthInstagram-6">Июнь</option>
+                                <option value="Июль" id="modalMonthInstagram-7">Июль</option>
+                                <option value="Август" id="modalMonthInstagram-8">Август</option>
+                                <option value="Сентябрь" id="modalMonthInstagram-9">Сентябрь</option>
+                                <option value="Октябрь" id="modalMonthInstagram-10">Октябрь</option>
+                                <option value="Ноябрь" id="modalMonthInstagram-11">Ноябрь</option>
+                                <option value="Декабрь" id="modalMonthInstagram-12">Декабрь</option>
+                            </select>
+                        </div>
+                        <div class="profile__block-instagram-list-filter-year">
+                            <p>Год</p>
+                            <select class="form-select profile__block-instagram-list-filter-year-select display-n" size="3" aria-label="size 3 select example">
+                                <option value="2021" id="modalYearInstagram-1">2021</option>
+                                <option value="2020" id="modalYearInstagram-2">2020</option>
+                                <option value="2019" id="modalYearInstagram-3">2019</option>
+                                <option value="2018" id="modalYearInstagram-4">2018</option>
+                                <option value="2017" id="modalYearInstagram-5">2017</option>
+                                <option value="2016" id="modalYearInstagram-6">2016</option>
+                                <option value="2015" id="modalYearInstagram-7">2015</option>
+                                <option value="2014" id="modalYearInstagram-8">2014</option>
+                                <option value="2013" id="modalYearInstagram-9">2013</option>
+                                <option value="2012" id="modalYearInstagram-10">2012</option>
+                                <option value="2011" id="modalYearInstagram-11">2011</option>
+                                <option value="2010" id="modalYearInstagram-12">2010</option>
+                            </select>
+                        </div>
+                        <div class="profile__block-instagram-list-filter-rating">Рейтинг</div>
+                    </div>
+                    <ul class="profile__block-instagram-list-block">
+                        <li class="profile__block-instagram-list-block-item">
+                            <div class="profile__block-instagram-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-instagram-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-instagram-list-block-rating">13.5593%</div>
+                        </li>
+                        <li class="profile__block-instagram-list-block-item">
+                            <div class="profile__block-instagram-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-instagram-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-instagram-list-block-rating">13.5593%</div>
+                        </li>
+                        <li class="profile__block-instagram-list-block-item">
+                            <div class="profile__block-instagram-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-instagram-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-instagram-list-block-rating">13.5593%</div>
+                        </li>
+                    </ul>
+                    <button class="profile__block-instagram-list-btn">Показать еще</button>
+                </div>
+                <div class="profile__block-instagram-account display-n">
+                    <div class="profile__block-instagram-account-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-instagram-account-img">
+                        <img src="./img/profile/peoples.png" alt="img">
+                    </div>
+                    <div class="profile__block-instagram-account-name">@dominic.ement</div>
+                    <ul class="profile__block-instagram-account-info">
+                        <li class="profile__block-instagram-account-info-item">
+                            <div class="profile__block-instagram-account-info-title">36</div>
+                            <div class="profile__block-instagram-account-info-text">Подписок</div>
+                        </li>
+                        <li class="profile__block-instagram-account-info-item">
+                            <div class="profile__block-instagram-account-info-title">6.2M</div>
+                            <div class="profile__block-instagram-account-info-text">Подписчиков</div>
+                        </li>
+                        <li class="profile__block-instagram-account-info-item">
+                            <div class="profile__block-instagram-account-info-title">456</div>
+                            <div class="profile__block-instagram-account-info-text">Публикаций</div>
+                        </li>
+                    </ul>
+                    <div class="profile__block-instagram-account-block">
+                        <p>Creative nail artist 💅</p>
+                        <h3>dominic@ement.com</h3>
+                    </div>
+                    <button class="profile__block-instagram-account-btn">Вернуться</button>
+                </div>
+            </div>
+        </div>
+        <div class="profile__service">
+            <div class="profile__service-title">
+                <span class="profile__service-title-blue">О</span>
+                <span class="profile__service-title-pink">сервисе</span>
+            </div>
+            <ul class="profile__service-list">
+                <li class="profile__service-list-item">
+                    <a href="#">С чего начать?</a>
+                </li>
+                <li class="profile__service-list-item">
+                    <a href="#">Часто задаваемые вопросы</a>
+                </li>
+                <li class="profile__service-list-item">
+                    <a href="#">Техническая поддержка</a>
+                </li>
+            </ul>
+        </div>
+        <div class="profile__blog">
+            <div class="profile__blog-title">
+                <span class="profile__blog-title-blue">Популярные</span>
+                <span class="profile__blog-title-pink">в блоге</span>
+            </div>
+            <div class="profile__blog-slider">
+                <div class="swiper profileBlogSlider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-1">
+                                <div class="swiper-slide-1-img"></div>
+                                <div class="swiper-slide-1-title">Почему женщинам следует перестать <br> так яростно...</div>
+                                <div class="swiper-slide-1-text">
+                                    Стремясь обрести счастье, душевный комфорт и опору <br>
+                                    в жизни, многие женщины мечтают поскорее...
+                                </div>
+                                <div class="swiper-slide-1-date">29 Сентября 2021</div>
+                                <div class="swiper-slide-1-block">
+                                    <div class="swiper-slide-1-block-link"><a href="#">Читать далее</a></div>
+                                    <button class="swiper-slide-1-block-btn"><a href="#">Психология</a></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide-2">
+                                <div class="swiper-slide-2-img"></div>
+                                <div class="swiper-slide-2-text">
+                                    <div class="swiper-slide-2-text-title">Почему мужчина не зовет замуж</div>
+                                    <div class="swiper-slide-2-text-item">Уже несколько лет вы встречаетесь <br>
+                                        с одним мужчиной, очень его любите...</div>
+                                    <div class="swiper-slide-2-text-date">29 Сентября 2021</div>
+                                    <div class="swiper-slide-2-text-block">
+                                        <div class="swiper-slide-2-text-block-link"><a href="#">Читать далее</a></div>
+                                        <button class="swiper-slide-2-text-block-btn"><a href="#">Психология</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide-3">
+                                <div class="swiper-slide-3-img"></div>
+                                <div class="swiper-slide-3-text">
+                                    <div class="swiper-slide-3-text-title">ТОП-5 лайфхаков, как стать довольной женой</div>
+                                    <div class="swiper-slide-3-text-item">Секреты семейного счастья помогают <br> любящим парам сохранить свои ...</div>
+                                    <div class="swiper-slide-3-text-date">29 Сентября 2021</div>
+                                    <div class="swiper-slide-3-text-block">
+                                        <div class="swiper-slide-3-text-block-link"><a href="#">Читать далее</a></div>
+                                        <button class="swiper-slide-3-text-block-btn"><a href="#">Брак</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-1">
+                                <div class="swiper-slide-1-img"></div>
+                                <div class="swiper-slide-1-title">Почему женщинам следует перестать <br> так яростно...</div>
+                                <div class="swiper-slide-1-text">
+                                    Стремясь обрести счастье, душевный комфорт и опору <br>
+                                    в жизни, многие женщины мечтают поскорее...
+                                </div>
+                                <div class="swiper-slide-1-date">29 Сентября 2021</div>
+                                <div class="swiper-slide-1-block">
+                                    <div class="swiper-slide-1-block-link"><a href="#">Читать далее</a></div>
+                                    <button class="swiper-slide-1-block-btn"><a href="#">Психология</a></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide-2">
+                                <div class="swiper-slide-2-img"></div>
+                                <div class="swiper-slide-2-text">
+                                    <div class="swiper-slide-2-text-title">Почему мужчина не зовет замуж</div>
+                                    <div class="swiper-slide-2-text-item">Уже несколько лет вы встречаетесь <br>
+                                        с одним мужчиной, очень его любите...</div>
+                                    <div class="swiper-slide-2-text-date">29 Сентября 2021</div>
+                                    <div class="swiper-slide-2-text-block">
+                                        <div class="swiper-slide-2-text-block-link"><a href="#">Читать далее</a></div>
+                                        <button class="swiper-slide-2-text-block-btn"><a href="#">Психология</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide-3">
+                                <div class="swiper-slide-3-img"></div>
+                                <div class="swiper-slide-3-text">
+                                    <div class="swiper-slide-3-text-title">ТОП-5 лайфхаков, как стать довольной женой</div>
+                                    <div class="swiper-slide-3-text-item">Секреты семейного счастья помогают <br> любящим парам сохранить свои ...</div>
+                                    <div class="swiper-slide-3-text-date">29 Сентября 2021</div>
+                                    <div class="swiper-slide-3-text-block">
+                                        <div class="swiper-slide-3-text-block-link"><a href="#">Читать далее</a></div>
+                                        <button class="swiper-slide-3-text-block-btn"><a href="#">Брак</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-1">
+                                <div class="swiper-slide-1-img"></div>
+                                <div class="swiper-slide-1-title">Почему женщинам следует перестать <br> так яростно...</div>
+                                <div class="swiper-slide-1-text">
+                                    Стремясь обрести счастье, душевный комфорт и опору <br>
+                                    в жизни, многие женщины мечтают поскорее...
+                                </div>
+                                <div class="swiper-slide-1-date">29 Сентября 2021</div>
+                                <div class="swiper-slide-1-block">
+                                    <div class="swiper-slide-1-block-link"><a href="#">Читать далее</a></div>
+                                    <button class="swiper-slide-1-block-btn"><a href="#">Психология</a></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide-2">
+                                <div class="swiper-slide-2-img"></div>
+                                <div class="swiper-slide-2-text">
+                                    <div class="swiper-slide-2-text-title">Почему мужчина не зовет замуж</div>
+                                    <div class="swiper-slide-2-text-item">Уже несколько лет вы встречаетесь <br>
+                                        с одним мужчиной, очень его любите...</div>
+                                    <div class="swiper-slide-2-text-date">29 Сентября 2021</div>
+                                    <div class="swiper-slide-2-text-block">
+                                        <div class="swiper-slide-2-text-block-link"><a href="#">Читать далее</a></div>
+                                        <button class="swiper-slide-2-text-block-btn"><a href="#">Психология</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide-3">
+                                <div class="swiper-slide-3-img"></div>
+                                <div class="swiper-slide-3-text">
+                                    <div class="swiper-slide-3-text-title">ТОП-5 лайфхаков, как стать довольной женой</div>
+                                    <div class="swiper-slide-3-text-item">Секреты семейного счастья помогают <br> любящим парам сохранить свои ...</div>
+                                    <div class="swiper-slide-3-text-date">29 Сентября 2021</div>
+                                    <div class="swiper-slide-3-text-block">
+                                        <div class="swiper-slide-3-text-block-link"><a href="#">Читать далее</a></div>
+                                        <button class="swiper-slide-3-text-block-btn"><a href="#">Брак</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-controls">
+                    <div class="swiper-button-next">
+                        <div class="swiper-button-next-icon"></div>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <div class="swiper-button-prev-icon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @@include('components/_footer.html')
+</div>
+
+
+@@include('components/_script.html')

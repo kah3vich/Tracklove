@@ -1,0 +1,50 @@
+.i-header {
+    width: 100%;
+    padding: 48px 0 0 0;
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-logo {
+            width: 120px;
+            height: 36px;
+        }
+        &-list {
+            width: 452px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &-item {
+                height: 30px;
+                cursor: pointer;
+                & a {
+                    font-family: TT Norms;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 30px;
+                    color: #E184BD;
+                }
+            }
+        }
+        &-btn {
+            width: 260px;
+            height: 43px;
+            border: 2px solid #E184BD;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            background: #fff;
+            cursor: pointer;
+            & a {
+                font-family: TT Norms;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                color: #E184BD;
+            }
+        }
+    }
+}
