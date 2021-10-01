@@ -93,7 +93,10 @@
 }
 @media (max-width: 750px) {
     .advice {
-        .containers {
+        & .containers {
+            padding: 0 25px;
+        }
+        & .footer {
             padding: 0 25px;
         }
     }
@@ -154,4 +157,54 @@
     .advice__block-banner-icons-4 {
         display: none;
     }
+    .menu {
+        box-shadow: none;
+    }
+    
+}
+@media (max-width: 650px) {
+    .advice__blog {
+        padding: 0 25px;
+    }
+    .advice__block-banner-text,
+    .header__block,
+    .advice__block-title {
+        padding: 0 25px;
+    }
+    .advice .containers {
+        padding: 0;
+    }
+    .advice__blog {
+        align-items: flex-start;
+    }
+    .advice__block-banner-text-add,
+    .advice__block-banner-text-1,
+    .advice__block-banner-text-1-add,
+    .advice__block-banner-text-2,
+    .advice__block-banner-text-2-add,
+    .advice__block-banner-text-3,
+    .advice__block-banner-text-3-add, 
+    .advice__block-banner-text-4,
+    .advice__block-banner-text-4-add,
+    .advice__block-banner-text-5,
+    .advice__block-banner-text-5-add {
+        width: 100%;
+    }
+    .menu__block-slider {
+        padding: 0 25px;
+    }
+    .menu__block-block {
+        width: 85%;
+    }
+    .advice__block-banner-btns {
+        width: 100%;
+        padding: 0 0 0 25px;
+    }
+    .advice__blog-slider .swiper-slide-1-title {
+        font-size: 20px;
+    }
+    .advice__blog-slider .swiper-slide-1-text {
+        font-size: 13px;
+    }
+
 }

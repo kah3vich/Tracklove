@@ -507,15 +507,6 @@ var adviceBlogSlider = new Swiper(".adviceBlogSlider", {
         nextEl: ".advice__blog-slider .swiper-controls .swiper-button-next",
         prevEl: ".advice__blog-slider .swiper-controls .swiper-button-prev",
     },
-    breakpoints: {
-        750: {
-            slidesPerView: 2,
-        },
-        0: {
-            slidesPerView: 1,
-            spaceBetweenSlides: 10
-        }
-    }
 });
 
 //! ---------------------------------------------------------------------------
@@ -550,6 +541,16 @@ var menuSlider = new Swiper(".menuSlider", {
         nextEl: ".menu__block-slider .swiper-controls .swiper-button-next",
         prevEl: ".menu__block-slider .swiper-controls .swiper-button-prev",
     },
+    breakpoints: {
+      750: {
+          slidesPerView: 2,
+          spaceBetweenSlides: 20
+      },
+      0: {
+          slidesPerView: 1,
+          spaceBetweenSlides: 10
+      }
+  }
 });
 
 
