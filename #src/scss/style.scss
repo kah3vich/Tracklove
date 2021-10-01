@@ -24,6 +24,7 @@
 @import "index/style.scss";
 @import "profile/style.scss";
 @import "advice/style.scss";
+@import "entrance/style.scss";
 
 
 //! --------------------------------------------------------------------
@@ -55,6 +56,10 @@ ol, ul {
     padding-left: 0;
 }
 dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p {
     margin-top: 0;
     margin-bottom: 0;
 }

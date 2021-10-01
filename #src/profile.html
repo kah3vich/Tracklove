@@ -16,7 +16,7 @@
             <div class="profile__banner-icons-3">
                 <img src="./img/profile/icons-3.png" alt="">
             </div>
-            <div class="profile__banner-block-1">
+            <button class="profile__banner-block-1">
                 <div class="profile__banner-block-1-circle">
                     <div class="profile__banner-block-1-img">
                         <img src="./img/profile/banner-img.png" alt="">
@@ -26,7 +26,7 @@
                         <div class="profile__banner-block-1-text-link">анализ <br>активности</div>
                     </div>
                 </div>
-            </div>
+            </button>
             <div class="profile__banner-block-2">
                 <div class="profile__banner-block-2-circle">
                     <div class="profile__banner-block-2-img">
@@ -70,6 +70,14 @@
                         <input type="text" placeholder="@ник пользователя">
                     </div>
                     <button class="profile__block-instagram-search-btn">Запустить проверку</button>
+                </div>
+                <div class="profile__block-instagram-loading display-n">
+                    <div class="profile__block-instagram-loadings">
+                        <div class="profile__block-instagram-percent">100%</div>
+                        <div class="profile__block-instagram-progress-bar">
+                            <div class="profile__block-instagram-progress"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="profile__block-instagram-list display-n">
                     <div class="profile__block-instagram-list-title">Рейтинг взаимодействия</div>
@@ -178,6 +186,134 @@
                         <h3>dominic@ement.com</h3>
                     </div>
                     <button class="profile__block-instagram-account-btn">Вернуться</button>
+                </div>
+            </div>
+            <div class="profile__block-vk display-n">
+                <button class="profile__block-vk-close">@@include('iconsprite/profile/close.svg')</button>
+                <div class="profile__block-vk-search display-n">
+                    <div class="profile__block-vk-search-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-vk-search-text">Введите ник пользователя, сервис проведёт анализ и покажет с кем он взаимодействует 
+                        в социальной сети</div>
+                    <div class="profile__block-vk-search-input">
+                        <input type="text" placeholder="@ник пользователя">
+                    </div>
+                    <button class="profile__block-vk-search-btn">Запустить проверку</button>
+                </div>
+                <div class="profile__block-vk-loading display-n">
+                    <div class="profile__block-vk-loadings">
+                        <div class="profile__block-vk-percent">100%</div>
+                        <div class="profile__block-vk-progress-bar">
+                            <div class="profile__block-vk-progress"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile__block-vk-list display-n">
+                    <div class="profile__block-vk-list-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-vk-list-img">
+                        <img src="./img/profile/people.png" alt="">
+                    </div>
+                    <div class="profile__block-vk-list-name">@dominic.ement</div>
+                    <ul class="profile__block-vk-list-info">
+                        <li class="profile__block-vk-list-info-item">
+                            <div class="profile__block-vk-list-info-title">36</div>
+                            <div class="profile__block-vk-list-info-text">Подписок</div>
+                        </li>
+                        <li class="profile__block-vk-list-info-item">
+                            <div class="profile__block-vk-list-info-title">6.2M</div>
+                            <div class="profile__block-vk-list-info-text">Подписчиков</div>
+                        </li>
+                        <li class="profile__block-vk-list-info-item">
+                            <div class="profile__block-vk-list-info-title">456</div>
+                            <div class="profile__block-vk-list-info-text">Публикаций</div>
+                        </li>
+                    </ul>
+                    <div class="profile__block-vk-list-filter">
+                        <div class="profile__block-vk-list-filter-month">
+                            <p>Месяц</p>
+                            <select class="form-select profile__block-vk-list-filter-month-select display-n" size="3" aria-label="size 3 select example">
+                                <option value="Январь" id="modalMonthVk-1">Январь</option>
+                                <option value="Февраль" id="modalMonthVk-2">Февраль</option>
+                                <option value="Март" id="modalMonthVk-3">Март</option>
+                                <option value="Апрель" id="modalMonthVk-4">Апрель</option>
+                                <option value="Май" id="modalMonthVk-5">Май</option>
+                                <option value="Июнь" id="modalMonthVk-6">Июнь</option>
+                                <option value="Июль" id="modalMonthVk-7">Июль</option>
+                                <option value="Август" id="modalMonthVk-8">Август</option>
+                                <option value="Сентябрь" id="modalMonthVk-9">Сентябрь</option>
+                                <option value="Октябрь" id="modalMonthVk-10">Октябрь</option>
+                                <option value="Ноябрь" id="modalMonthVk-11">Ноябрь</option>
+                                <option value="Декабрь" id="modalMonthVk-12">Декабрь</option>
+                            </select>
+                        </div>
+                        <div class="profile__block-vk-list-filter-year">
+                            <p>Год</p>
+                            <select class="form-select profile__block-vk-list-filter-year-select display-n" size="3" aria-label="size 3 select example">
+                                <option value="2021" id="modalYearVk-1">2021</option>
+                                <option value="2020" id="modalYearVk-2">2020</option>
+                                <option value="2019" id="modalYearVk-3">2019</option>
+                                <option value="2018" id="modalYearVk-4">2018</option>
+                                <option value="2017" id="modalYearVk-5">2017</option>
+                                <option value="2016" id="modalYearVk-6">2016</option>
+                                <option value="2015" id="modalYearVk-7">2015</option>
+                                <option value="2014" id="modalYearVk-8">2014</option>
+                                <option value="2013" id="modalYearVk-9">2013</option>
+                                <option value="2012" id="modalYearVk-10">2012</option>
+                                <option value="2011" id="modalYearVk-11">2011</option>
+                                <option value="2010" id="modalYearVk-12">2010</option>
+                            </select>
+                        </div>
+                        <div class="profile__block-vk-list-filter-rating">Рейтинг</div>
+                    </div>
+                    <ul class="profile__block-vk-list-block">
+                        <li class="profile__block-vk-list-block-item">
+                            <div class="profile__block-vk-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-vk-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-vk-list-block-rating">13.5593%</div>
+                        </li>
+                        <li class="profile__block-vk-list-block-item">
+                            <div class="profile__block-vk-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-vk-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-vk-list-block-rating">13.5593%</div>
+                        </li>
+                        <li class="profile__block-vk-list-block-item">
+                            <div class="profile__block-vk-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-vk-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-vk-list-block-rating">13.5593%</div>
+                        </li>
+                    </ul>
+                    <button class="profile__block-vk-list-btn">Показать еще</button>
+                </div>
+                <div class="profile__block-vk-account display-n">
+                    <div class="profile__block-vk-account-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-vk-account-img">
+                        <img src="./img/profile/peoples.png" alt="img">
+                    </div>
+                    <div class="profile__block-vk-account-name">@dominic.ement</div>
+                    <ul class="profile__block-vk-account-info">
+                        <li class="profile__block-vk-account-info-item">
+                            <div class="profile__block-vk-account-info-title">36</div>
+                            <div class="profile__block-vk-account-info-text">Подписок</div>
+                        </li>
+                        <li class="profile__block-vk-account-info-item">
+                            <div class="profile__block-vk-account-info-title">6.2M</div>
+                            <div class="profile__block-vk-account-info-text">Подписчиков</div>
+                        </li>
+                        <li class="profile__block-vk-account-info-item">
+                            <div class="profile__block-vk-account-info-title">456</div>
+                            <div class="profile__block-vk-account-info-text">Публикаций</div>
+                        </li>
+                    </ul>
+                    <div class="profile__block-vk-account-block">
+                        <p>Creative nail artist 💅</p>
+                        <h3>dominic@ement.com</h3>
+                    </div>
+                    <button class="profile__block-vk-account-btn">Вернуться</button>
                 </div>
             </div>
         </div>

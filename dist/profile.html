@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tracklove</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css"/>
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -17,7 +21,99 @@
 
 
 <div class="profile">
-    <header class="header">
+    <div class="menu">
+    <div class="menu__block">
+        <div class="menu__block-close menu-close">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.11816 2.11792L13.0588 12.8321" stroke="#6454DD" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 12.9497L13.1811 2.00002" stroke="#6454DD" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        </div>
+        <div class="menu__block-title">Сервисы</div>
+        <ul class="menu__block-platform">
+            <li class="menu__block-platform-instagram">
+                <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M2.93693 3.19792C-0.756483 7.03429 -0.000566021 11.1096 -0.000566021 23.4902C-0.000566021 33.7714 -1.7944 44.0781 7.59385 46.5045C10.5255 47.2585 36.5008 47.2585 39.4285 46.5006C43.3373 45.4921 46.5177 42.3215 46.9524 36.7931C47.0131 36.0215 47.0131 10.9725 46.9505 10.1853C46.4883 4.29654 42.8634 0.902751 38.0871 0.215375C36.9923 0.0567503 36.773 0.0097503 31.1565 -4.13656e-05C11.2344 0.0097503 6.86731 -0.877375 2.93693 3.19792Z" fill="url(#paint0_linear)"/>
+<path d="M23.4964 6.14712C16.3857 6.14712 9.63333 5.51458 7.0542 12.1337C5.98887 14.8676 6.14358 18.418 6.14358 23.5019C6.14358 27.963 6.00062 32.1558 7.0542 34.868C9.62745 41.4911 16.4346 40.8566 23.4925 40.8566C30.3016 40.8566 37.3222 41.5656 39.9327 34.868C41 32.1068 40.8433 28.6092 40.8433 23.5019C40.8433 16.7221 41.2173 12.3452 37.9293 9.05916C34.6001 5.72999 30.0979 6.14712 23.4885 6.14712H23.4964ZM21.9415 9.27458C36.7739 9.25108 38.6617 7.60216 37.6199 30.5088C37.2497 38.6104 31.081 37.7213 23.4983 37.7213C9.67249 37.7213 9.27495 37.3258 9.27495 23.494C9.27495 9.50175 10.3716 9.28241 21.9415 9.27066V9.27458ZM32.7593 12.1553C31.6097 12.1553 30.6776 13.0875 30.6776 14.237C30.6776 15.3865 31.6097 16.3187 32.7593 16.3187C33.9088 16.3187 34.841 15.3865 34.841 14.237C34.841 13.0875 33.9088 12.1553 32.7593 12.1553ZM23.4964 14.5895C18.5751 14.5895 14.586 18.5806 14.586 23.5019C14.586 28.4232 18.5751 32.4123 23.4964 32.4123C28.4177 32.4123 32.4048 28.4232 32.4048 23.5019C32.4048 18.5806 28.4177 14.5895 23.4964 14.5895ZM23.4964 17.717C31.1437 17.717 31.1535 29.2868 23.4964 29.2868C15.851 29.2868 15.8393 17.717 23.4964 17.717Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="3.02706" y1="43.998" x2="46.7086" y2="6.19218" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFDD55"/>
+<stop offset="0.5" stop-color="#FF543E"/>
+<stop offset="1" stop-color="#C837AB"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="47" height="47" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+                <div class="menu__block-platform-instagram-text">
+                    <div class="menu__block-platform-instagram-title">INSTAGRAM</div>
+                    <div class="menu__block-platform-instagram-link">анализ <br>
+                        активности</div>
+                </div>
+            </li>
+            <li class="menu__block-platform-vk">
+                <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.2858 0H30.7142C43.8821 0 47 3.11785 47 16.2858V30.7142C47 43.8821 43.8821 47 30.7142 47H16.2858C3.11785 47 0 43.8821 0 30.7142V16.2858C0 3.11785 3.11785 0 16.2858 0Z" fill="#4680C2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M38.4145 15.0021C38.6467 14.2724 38.4145 13.7417 37.3863 13.7417H33.9699C33.1076 13.7417 32.7095 14.206 32.4774 14.7036C32.4774 14.7036 30.7194 18.9492 28.2649 21.7021C27.4688 22.4982 27.104 22.7635 26.6729 22.7635C26.4406 22.7635 26.1422 22.4982 26.1422 21.7685V14.9689C26.1422 14.1065 25.8768 13.7085 25.147 13.7085H19.7738C19.243 13.7085 18.9114 14.1065 18.9114 14.5046C18.9114 15.3338 20.1386 15.5328 20.2713 17.8546V22.8962C20.2713 23.9908 20.0723 24.1898 19.6411 24.1898C18.4802 24.1898 15.6609 19.911 13.9693 15.0353C13.6375 14.0733 13.3059 13.7085 12.4435 13.7085H8.9939C7.99886 13.7085 7.83301 14.1729 7.83301 14.6704C7.83301 15.566 8.9939 20.0769 13.2395 26.0473C16.0589 30.127 20.0723 32.3161 23.6877 32.3161C25.8768 32.3161 26.1422 31.8186 26.1422 30.9894V27.9048C26.1422 26.9096 26.3411 26.7439 27.0377 26.7439C27.5352 26.7439 28.4308 27.0091 30.454 28.9661C32.7758 31.2879 33.1738 32.3493 34.4674 32.3493H37.8838C38.8789 32.3493 39.3433 31.8518 39.0779 30.8898C38.7794 29.928 37.6517 28.5349 36.1922 26.8764C35.3962 25.9478 34.2021 24.9196 33.8372 24.422C33.3397 23.7587 33.4724 23.4933 33.8372 22.8962C33.8041 22.8962 37.9833 16.9922 38.4145 15.0021Z" fill="white"/>
+</svg>
+
+                <div class="menu__block-platform-vk-text">
+                    <div class="menu__block-platform-vk-title">VK</div>
+                    <div class="menu__block-platform-vk-link">анализ <br>
+                        активности</div>
+                </div>
+            </li>
+            <li class="menu__block-platform-tinder">
+                <svg width="41" height="47" viewBox="0 0 41 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.1914 18.9762C12.1664 18.9852 12.1392 18.9862 12.1136 18.9791C12.0879 18.9719 12.0652 18.957 12.0484 18.9363C10.467 16.8322 10.0697 13.2149 9.97298 11.8255C9.95311 11.558 9.65379 11.4076 9.41407 11.542C4.53088 14.2982 0 20.8181 0 27.113C0 37.9276 7.4751 47 20.3433 47C32.3996 47 40.6866 37.6494 40.6866 27.1144C40.6866 13.3294 30.8831 4.17044 22.1511 0.0301531C22.1001 0.00594483 22.0435 -0.00397472 21.9872 0.00143966C21.931 0.00685403 21.8773 0.0274018 21.8318 0.060918C21.7862 0.0944342 21.7505 0.139678 21.7284 0.191881C21.7063 0.244085 21.6986 0.301316 21.7061 0.357543C22.8306 7.78637 21.277 15.866 12.1914 18.9762Z" fill="url(#paint0_radial)"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.3437 47.0078) scale(43.4668 50.2118)">
+<stop stop-color="#FF7854"/>
+<stop offset="1" stop-color="#FD267D"/>
+</radialGradient>
+</defs>
+</svg>
+
+                <div class="menu__block-platform-tinder-text">
+                    <div class="menu__block-platform-tinder-title">Tinder</div>
+                    <div class="menu__block-platform-tinder-link">анализ <br>
+                        активности</div>
+                </div>
+            </li>
+        </ul>
+        <div class="menu__block-hr"></div>
+        <div class="menu__block-blog">Популярное в блоге</div>
+        <div class="menu__block-slider">
+            <div class="swiper menuSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Почему женщинам следует перестать так яростно...</div>
+                    <div class="swiper-slide">ТОП-5 лайфхаков, как стать довольной женой</div>
+                    <div class="swiper-slide">Почему женщинам следует перестать так яростно...</div>
+                    <div class="swiper-slide">ТОП-5 лайфхаков, как стать довольной женой</div>
+                    <div class="swiper-slide">Почему женщинам следует перестать так яростно...</div>
+                    <div class="swiper-slide">ТОП-5 лайфхаков, как стать довольной женой</div>
+                    <div class="swiper-slide">Почему женщинам следует перестать так яростно...</div>
+                    <div class="swiper-slide">ТОП-5 лайфхаков, как стать довольной женой</div>
+                </div>
+            </div>
+            <div class="swiper-controls">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="menu__block-hr"></div>
+        <div class="menu__block-account">Аккаунт</div>
+        <div class="menu__block-block">
+            <p>@dominic.ement</p>
+        </div>
+    </div>
+</div>
+<header class="header">
     <div class="containers">
         <div class="header__block">
             <div class="header__block-logo"><a href="index.html"><svg width="119" height="19" viewBox="0 0 119 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +134,7 @@
                 <li class="header__block-list-item">
                     <a href="#"></a>
                 </li>
-                <li class="header__block-list-item">
+                <li class="header__block-list-item menu-open">
                     <svg width="36" height="29" viewBox="0 0 36 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="36" height="7" rx="3.5" fill="#6454DD"/>
 <rect y="11" width="36" height="7" rx="3.5" fill="#6454DD"/>
@@ -52,6 +148,7 @@
 </header>
 
 
+
     <div class="containers">
         <div class="profile__banner">
             <div class="profile__banner-icons-1">
@@ -63,7 +160,7 @@
             <div class="profile__banner-icons-3">
                 <img src="./img/profile/icons-3.png" alt="">
             </div>
-            <div class="profile__banner-block-1">
+            <button class="profile__banner-block-1">
                 <div class="profile__banner-block-1-circle">
                     <div class="profile__banner-block-1-img">
                         <img src="./img/profile/banner-img.png" alt="">
@@ -73,7 +170,7 @@
                         <div class="profile__banner-block-1-text-link">анализ <br>активности</div>
                     </div>
                 </div>
-            </div>
+            </button>
             <div class="profile__banner-block-2">
                 <div class="profile__banner-block-2-circle">
                     <div class="profile__banner-block-2-img">
@@ -121,6 +218,14 @@
                         <input type="text" placeholder="@ник пользователя">
                     </div>
                     <button class="profile__block-instagram-search-btn">Запустить проверку</button>
+                </div>
+                <div class="profile__block-instagram-loading display-n">
+                    <div class="profile__block-instagram-loadings">
+                        <div class="profile__block-instagram-percent">100%</div>
+                        <div class="profile__block-instagram-progress-bar">
+                            <div class="profile__block-instagram-progress"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="profile__block-instagram-list display-n">
                     <div class="profile__block-instagram-list-title">Рейтинг взаимодействия</div>
@@ -229,6 +334,138 @@
                         <h3>dominic@ement.com</h3>
                     </div>
                     <button class="profile__block-instagram-account-btn">Вернуться</button>
+                </div>
+            </div>
+            <div class="profile__block-vk display-n">
+                <button class="profile__block-vk-close"><svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.89062 7.89209L22.9992 23.0006" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.72656 23.1663L23.1672 7.72566" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+                <div class="profile__block-vk-search display-n">
+                    <div class="profile__block-vk-search-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-vk-search-text">Введите ник пользователя, сервис проведёт анализ и покажет с кем он взаимодействует 
+                        в социальной сети</div>
+                    <div class="profile__block-vk-search-input">
+                        <input type="text" placeholder="@ник пользователя">
+                    </div>
+                    <button class="profile__block-vk-search-btn">Запустить проверку</button>
+                </div>
+                <div class="profile__block-vk-loading display-n">
+                    <div class="profile__block-vk-loadings">
+                        <div class="profile__block-vk-percent">100%</div>
+                        <div class="profile__block-vk-progress-bar">
+                            <div class="profile__block-vk-progress"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile__block-vk-list display-n">
+                    <div class="profile__block-vk-list-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-vk-list-img">
+                        <img src="./img/profile/people.png" alt="">
+                    </div>
+                    <div class="profile__block-vk-list-name">@dominic.ement</div>
+                    <ul class="profile__block-vk-list-info">
+                        <li class="profile__block-vk-list-info-item">
+                            <div class="profile__block-vk-list-info-title">36</div>
+                            <div class="profile__block-vk-list-info-text">Подписок</div>
+                        </li>
+                        <li class="profile__block-vk-list-info-item">
+                            <div class="profile__block-vk-list-info-title">6.2M</div>
+                            <div class="profile__block-vk-list-info-text">Подписчиков</div>
+                        </li>
+                        <li class="profile__block-vk-list-info-item">
+                            <div class="profile__block-vk-list-info-title">456</div>
+                            <div class="profile__block-vk-list-info-text">Публикаций</div>
+                        </li>
+                    </ul>
+                    <div class="profile__block-vk-list-filter">
+                        <div class="profile__block-vk-list-filter-month">
+                            <p>Месяц</p>
+                            <select class="form-select profile__block-vk-list-filter-month-select display-n" size="3" aria-label="size 3 select example">
+                                <option value="Январь" id="modalMonthVk-1">Январь</option>
+                                <option value="Февраль" id="modalMonthVk-2">Февраль</option>
+                                <option value="Март" id="modalMonthVk-3">Март</option>
+                                <option value="Апрель" id="modalMonthVk-4">Апрель</option>
+                                <option value="Май" id="modalMonthVk-5">Май</option>
+                                <option value="Июнь" id="modalMonthVk-6">Июнь</option>
+                                <option value="Июль" id="modalMonthVk-7">Июль</option>
+                                <option value="Август" id="modalMonthVk-8">Август</option>
+                                <option value="Сентябрь" id="modalMonthVk-9">Сентябрь</option>
+                                <option value="Октябрь" id="modalMonthVk-10">Октябрь</option>
+                                <option value="Ноябрь" id="modalMonthVk-11">Ноябрь</option>
+                                <option value="Декабрь" id="modalMonthVk-12">Декабрь</option>
+                            </select>
+                        </div>
+                        <div class="profile__block-vk-list-filter-year">
+                            <p>Год</p>
+                            <select class="form-select profile__block-vk-list-filter-year-select display-n" size="3" aria-label="size 3 select example">
+                                <option value="2021" id="modalYearVk-1">2021</option>
+                                <option value="2020" id="modalYearVk-2">2020</option>
+                                <option value="2019" id="modalYearVk-3">2019</option>
+                                <option value="2018" id="modalYearVk-4">2018</option>
+                                <option value="2017" id="modalYearVk-5">2017</option>
+                                <option value="2016" id="modalYearVk-6">2016</option>
+                                <option value="2015" id="modalYearVk-7">2015</option>
+                                <option value="2014" id="modalYearVk-8">2014</option>
+                                <option value="2013" id="modalYearVk-9">2013</option>
+                                <option value="2012" id="modalYearVk-10">2012</option>
+                                <option value="2011" id="modalYearVk-11">2011</option>
+                                <option value="2010" id="modalYearVk-12">2010</option>
+                            </select>
+                        </div>
+                        <div class="profile__block-vk-list-filter-rating">Рейтинг</div>
+                    </div>
+                    <ul class="profile__block-vk-list-block">
+                        <li class="profile__block-vk-list-block-item">
+                            <div class="profile__block-vk-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-vk-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-vk-list-block-rating">13.5593%</div>
+                        </li>
+                        <li class="profile__block-vk-list-block-item">
+                            <div class="profile__block-vk-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-vk-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-vk-list-block-rating">13.5593%</div>
+                        </li>
+                        <li class="profile__block-vk-list-block-item">
+                            <div class="profile__block-vk-list-block-img">
+                                <img src="./img/profile/people.png" alt="">
+                            </div>
+                            <div class="profile__block-vk-list-block-name">@dominic.ement</div>
+                            <div class="profile__block-vk-list-block-rating">13.5593%</div>
+                        </li>
+                    </ul>
+                    <button class="profile__block-vk-list-btn">Показать еще</button>
+                </div>
+                <div class="profile__block-vk-account display-n">
+                    <div class="profile__block-vk-account-title">Рейтинг взаимодействия</div>
+                    <div class="profile__block-vk-account-img">
+                        <img src="./img/profile/peoples.png" alt="img">
+                    </div>
+                    <div class="profile__block-vk-account-name">@dominic.ement</div>
+                    <ul class="profile__block-vk-account-info">
+                        <li class="profile__block-vk-account-info-item">
+                            <div class="profile__block-vk-account-info-title">36</div>
+                            <div class="profile__block-vk-account-info-text">Подписок</div>
+                        </li>
+                        <li class="profile__block-vk-account-info-item">
+                            <div class="profile__block-vk-account-info-title">6.2M</div>
+                            <div class="profile__block-vk-account-info-text">Подписчиков</div>
+                        </li>
+                        <li class="profile__block-vk-account-info-item">
+                            <div class="profile__block-vk-account-info-title">456</div>
+                            <div class="profile__block-vk-account-info-text">Публикаций</div>
+                        </li>
+                    </ul>
+                    <div class="profile__block-vk-account-block">
+                        <p>Creative nail artist 💅</p>
+                        <h3>dominic@ement.com</h3>
+                    </div>
+                    <button class="profile__block-vk-account-btn">Вернуться</button>
                 </div>
             </div>
         </div>

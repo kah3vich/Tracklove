@@ -1,0 +1,68 @@
+@@include('components/_head.html')
+
+
+<div class="ent">
+
+
+    <div class="ent__block">
+        <div class="ent__block-icons-1">
+            <img src="./img/entrance/icons-1.png" alt="">
+        </div>
+        <div class="ent__block-icons-2">
+            <img src="./img/entrance/icons-2.png" alt="">
+        </div>
+        <div class="ent__block-icons-3">
+            <img src="./img/entrance/icons-3.png" alt="">
+        </div>
+        <div class="ent__block-icons-4">
+            <img src="./img/entrance/icons-4.png" alt="">
+        </div>
+        <div class="ent__block-logo">@@include('iconsprite/entrance/logo.svg')</div>
+        <ul class="ent__block-tabs">
+            <li id="entranceTabs-1" class="ent__block-tabs-item ent__block-tabs-item-active">Зарегистрироваться</li>
+            <li id="entranceTabs-2" class="ent__block-tabs-item">войти</li>
+        </ul>
+        <div class="ent__block-registration">
+            <div class="ent__block-registration-wrapper">
+                <div class="ent__block-registration-wrapper-title">Регистриция</div>
+                <div class="ent__block-registration-wrapper-email">
+                    <input type="text" placeholder="Электронная почта*">
+                </div>
+                <div class="ent__block-registration-wrapper-password">
+                    <input type="text" placeholder="Придумайте пароль*">
+                </div>
+                <div class="ent__block-registration-wrapper-passwords">
+                    <input type="text" placeholder="Повторите пароль*">
+                </div>
+                <button class="ent__block-registration-wrapper-btn"><a href="#">Отправить</a></button>
+                <div class="ent__block-registration-wrapper-checkbox">
+                    <input class="ent__block-registration-wrapper-checkbox__input" type="checkbox" id="checkboxEntrance-1">
+                    <label class="ent__block-registration-wrapper-checkbox__label" for="checkboxEntrance-1">Согласен с политикой обработки персональных данных, правилами предоставления услуг по подписке, офертой рекуррентных платежей, договором-офертой и условиями использования</label>
+                </div>
+                <div class="ent__block-registration-wrapper-checkbox">
+                    <input class="ent__block-registration-wrapper-checkbox__input" type="checkbox" id="checkboxEntrance-2">
+                    <label class="ent__block-registration-wrapper-checkbox__label" for="checkboxEntrance-2">Согласен с политикой обработки персональных данных, правилами предоставления услуг по подписке, офертой рекуррентных платежей, договором-офертой и условиями использования</label>
+                </div>
+            </div>
+        </div>
+        <div class="ent__block-entrance display-n">
+            <div class="ent__block-entrance-wrapper">
+                <div class="ent__block-entrance-wrapper-title">Вход</div>
+                <div class="ent__block-entrance-wrapper-email">
+                    <input type="text" placeholder="Электронная почта*">
+                </div>
+                <div class="ent__block-entrance-wrapper-password">
+                    <input type="text" placeholder="Пароль*">
+                </div>
+                <button class="ent__block-entrance-wrapper-btn"><a href="#">Войти</a></button>
+                <div class="ent__block-entrance-wrapper-link"><a href="#">Забыли пароль ?</a></div>
+                <div class="ent__block-entrance-wrapper-text">Согласен с политикой обработки персональных данных, правилами предоставления услуг по подписке, офертой рекуррентных платежей, договором-офертой и условиями использования</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+@@include('components/_script.html')

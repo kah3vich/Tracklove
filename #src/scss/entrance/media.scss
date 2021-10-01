@@ -1,0 +1,39 @@
+@media (max-width: 1050px) {
+    .ent__block-icons-1 {
+        display: none;
+    }
+    .ent__block-icons-2 {
+        display: none;
+    }
+    .ent__block-icons-3 {
+        display: none;
+    }
+    .ent__block-icons-4 {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .ent__block-entrance,
+    .ent__block-registration {
+        width: 420px;
+    }
+    .ent__block-registration-wrapper-email,
+    .ent__block-registration-wrapper-password,
+    .ent__block-registration-wrapper-passwords,
+    .ent__block-registration-wrapper-btn,
+    .ent__block-registration-wrapper-checkbox,
+    .ent__block-entrance-wrapper-email,
+    .ent__block-entrance-wrapper-password,
+    .ent__block-entrance-wrapper-btn {
+        width: 315px;
+    }
+    .ent__block-registration-wrapper-checkbox__label,
+    .ent__block-entrance-wrapper-text {
+        width: 285px;
+    }
+}
+@media (max-width: 450px) {
+    .ent__block-entrance, .ent__block-registration {
+        width: 355px;
+    }
+}
