@@ -5990,6 +5990,23 @@ p {
   display: none;
 }
 
+@media (max-width: 1440px) {
+  .advice__block-banner-img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .advice__block-banner-img img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .advice__block-banner {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1430px) {
   .i-about__we {
     width: 100%;
@@ -6178,6 +6195,78 @@ p {
   }
 }
 
+@media (max-width: 1220px) {
+  .advice__blog-slider .swiper-slide-3 {
+    display: none;
+  }
+
+  .advice__blog-slider .swiper-slide-2 {
+    width: 100%;
+    height: 640px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .advice__blog-slider .swiper-slide-1 {
+    width: 100%;
+  }
+
+  .advice__blog-slider .swiper-slide-2-img {
+    width: 100%;
+    height: 384px;
+    background: #ff7e92;
+    border-radius: 8px;
+  }
+
+  .advice__blog-slider .swiper-slide-1-img {
+    width: 100%;
+    height: 384px;
+    background: #ff7e92;
+    border-radius: 8px;
+  }
+
+  .advice__blog-slider .swiper-slide {
+    gap: 0 55px;
+  }
+
+  .advice__blog-slider .swiper-slide-2-text-block {
+    margin: 27px 0 0 0;
+    padding: 0 53px 0 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .advice__blog-slider .swiper-slide-2-text {
+    width: 95%;
+    margin: 24px 0 0 23px;
+  }
+
+  .advice__blog-slider .swiper-slide-2-text-title {
+    height: 60px;
+  }
+
+  .advice .containers {
+    padding: 0 90px;
+  }
+
+  .advice__blog-slider {
+    width: 100%;
+  }
+
+  .advice__block-title {
+    margin: 22px 0 43px 0;
+  }
+}
+
 @media (max-width: 1150px) {
   .i-about__reviews-slider-add {
     position: absolute;
@@ -6278,6 +6367,47 @@ p {
   .i-about__reviews-slider .swiper-controls {
     bottom: 30px;
     left: 123px;
+  }
+
+  .advice__blog-slider .swiper-slide-2 {
+    display: none;
+  }
+
+  .advice__blog-slider .swiper-slide {
+    width: 100%;
+    height: 640px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 16px 0;
+    grid-auto-flow: row;
+        grid-template-areas: "swiper-slide-1";
+  }
+
+  .advice__block-title {
+    width: 100%;
+    font-size: 33px;
+  }
+
+  .advice__block-banner-text-add {
+    font-size: 17px;
+  }
+
+  .advice__blog-slider .swiper-slide > .swiper-slide-1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+
+  .advice__blog-slider .swiper-slide > .swiper-slide-1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
   }
 }
 
@@ -6480,6 +6610,89 @@ p {
 
   .i-about__benefit-img-medias {
     display: block;
+  }
+
+  .advice .containers {
+    padding: 0 25px;
+  }
+
+  .header__block-list-item:nth-child(1) {
+    display: none;
+  }
+
+  .header__block-list-item:nth-child(2) {
+    display: none;
+  }
+
+  .header__block-list-item:nth-child(3) {
+    display: none;
+  }
+
+  .menu__block,
+  .menu {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu__block-platform {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .menu__block-platform-instagram {
+    margin: 0 0 25px 0;
+    width: 325px;
+    height: 100px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .menu__block-platform-instagram-text {
+    margin: 0 0 0 60px;
+  }
+
+  .menu__block-platform-vk {
+    margin: 0 0 25px 0;
+    width: 325px;
+    height: 100px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .menu__block-platform-vk-text {
+    margin: 0 0 0 60px;
+  }
+
+  .menu__block-platform-tinder {
+    width: 325px;
+    height: 100px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .menu__block-platform-tinder-text {
+    margin: 0 0 0 60px;
+  }
+
+  .advice__block-banner-icons-1 {
+    display: none;
+  }
+
+  .advice__block-banner-icons-2 {
+    display: none;
+  }
+
+  .advice__block-banner-icons-3 {
+    display: none;
+  }
+
+  .advice__block-banner-icons-4 {
+    display: none;
   }
 }
 
