@@ -480,3 +480,34 @@ $('#modalMonthVk-12').on('click', function() {
 
 //! ---------------------------------------------------------------------------
 
+
+
+//! Media слайдер 
+
+
+
+var profileMediaSliderBanners = new Swiper(".profileMediaSliderBanners", {
+    navigation: {
+        nextEl: ".profile__banner .swiper-controls .swiper-button-next",
+        prevEl: ".profile__banner .swiper-controls .swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+    slidesPerView: 2,
+    spaceBetween: 20,
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 10
+        },
+        999: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 20
+        }
+    }
+});
+
+//! ----------------------------------------------------------------------------

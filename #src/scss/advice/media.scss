@@ -160,7 +160,21 @@
     .menu {
         box-shadow: none;
     }
-    
+    .menu__block-hr {
+        display: none;
+    }
+    .menu__block-account {
+        display: none;
+    }
+    .menu {
+        padding: 40px 0 0 0;
+    }
+    .menu__block-platform {
+        margin: 20px 0 0 0;
+    }
+    .menu__block-block {
+        margin: 45px 0 0 0;
+    }
 }
 @media (max-width: 650px) {
     .advice__blog {
@@ -207,4 +221,10 @@
         font-size: 13px;
     }
 
+}
+@media (max-width: 550px) {
+    .menu__block-close {
+        top: 15px;
+        right: 30px;
+    }
 }
